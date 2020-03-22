@@ -2,7 +2,7 @@
 - name: Install the dependencies
   yum:
     name:
-      - centos-release-scl
+      - centos-release-scl-rh
   when: ansible_distribution == 'CentOS'
 
 - name: Set script name and prefix
